@@ -1,0 +1,79 @@
+
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+body{
+font-family:"gotham ssm";
+}
+
+.first-upper-nav-container {
+ width: 100%;
+ height: 52px;
+ color: #EEEEEE;
+ font: 16px;
+ font-family: "Gotham SSm";
+ background-color: #000000;
+ padding: 16px 24px;
+ 
+}
+
+.second-upper-nav-container {
+  width: 1881px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.first-header-div{
+  width: 177px;
+  height: 20px;
+  font: 19px;
+  font-weight: 500;
+  padding: block end: 82px;
+  padding: block-start: 32px; 
+}
+
+.second-header-div {
+  color: #FFFFFF;
+  width: 514px;
+  height: 20px;
+  font: 14px;
+  
+}
+.second-header-div p {
+margin-block-end: 1em;
+margin-block-end: 1em;
+}
+.third-header-div-link{
+  color: #EEEEEE;
+  width: 172px;
+  height: 18px;
+  font: 12px;
+  box: shadow 1px;
+  cursor: pointer;
+  position: relative;
+  text-align: initial;
+  transition: box-shadow;
+}
+a.third-header-div-link:hover{
+  color: #EEEEEE;
+  text-decoration: underline bolder 14px;
+  text-decoration: bolder;
+  text-decoration: 14px;
+  
+  
+}
+
+
+
+/* p {
+ font-size: 16PX;
+}
+tds-icon tds-icon-logo-wordmark tds-site-logo-icon {
+  width: 120;
+  height: 24;
+} */
