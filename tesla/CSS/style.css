@@ -67,7 +67,7 @@ a.third-header-div-link:hover{
   text-decoration: 14px;
   
 }
-
+/*-------------------------------------------------------------*/
 section.Hero-section{
   position: absolute;
 }
@@ -83,7 +83,7 @@ section.nav-container {
  gap: 30px;
 
 }
-
+/*-------------------------------------------------------------*/
 div.logo{
   justify-content:start;
 }
@@ -123,7 +123,10 @@ div.3-icons-right {
   align-self:flex-end;
   size: 24px 24px ;
 }
-div.Reengineered-text{
+
+
+/*-------------------------------------------------------------------*/
+/* div.Reengineered-text{
   position: absolute;
   display:flex;
   
@@ -145,18 +148,63 @@ p {
   font-size: 17px;
   padding: 6px 24px 14px;
 }
-}
-main{
-
-  display;flex;
 
 
-}
 
-/* p {
- font-size: 16PX;
-}
-tds-icon tds-icon-logo-wordmark tds-site-logo-icon {
-  width: 120;
-  height: 24;
 } */
+/*-----------------------------------------------------------------*/
+div.2-buttons{
+  
+  
+}
+a.button-white {
+  display: inline-block;
+  font-family:"Gotham SSm";
+  text-decoration: none;
+  width:235px;
+  height:40px;
+  padding: 4px 24px;
+  
+  margin-left: 40px;
+  top: 235px;
+  background-color:#FFFFFF;
+  color: #000;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+button.btnr3:hover{
+  cursor: pointer;}
+  
+  
+  
+  a.button-transperent {
+    display: inline-block;
+    font-family:"Gotham SSm";
+    font-size: 14px;
+    text-decoration: none;
+    width:235px;
+    height: 40px;
+    padding: 4px 24px;
+    margin-right: 40px;
+    top: 235px;
+    background-color:transparent;
+    color: #FFFFFF;
+    border: #FFFFFF 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  a.button-transperent:hover{
+    color: #000;
+    background-color: #FFFFFF;
+    cursor: pointer;
+  }
+  
