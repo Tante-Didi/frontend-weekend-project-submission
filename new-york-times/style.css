@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-family-web: "Times New Roman";
+  --font-family-links: "nyt-franklin, helvetica, arial, sans-serif";
+}
+
+body {
+  font-family: var(--font-family);
+}
+.search-logo {
+  width: 34px;
+  height: 33px;
+  padding: 8px 9px 9px;
+  border: none;
+  background-color: transparent;
+}
+
+ul {
+  font-family: var(--font-family-links);
+}
