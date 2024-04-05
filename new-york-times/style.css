@@ -164,3 +164,30 @@ li {
   color: #121212;
   padding: 0px 6px 0px 0px;
 }
+/*-------------------------BREAKING news -----------------------------------------*/
+div.BREAKING-div {
+  margin-top: 2px;
+  margin-bottom: 5px;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 15px;
+  border-top: #121212 solid 1px;
+}
+.BREAKING-P {
+  font-family: 'nyt-cheltenham, georgia, "times new roman", times, serif';
+  font-size: 16px;
+  color: #121212;
+  max-width: 1200px;
+}
+.italic {
+  font-style: italic;
+}
+.BREAKING {
+  color: #d0021b;
+  font-weight: 700;
+  font-size: 11px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-style: none;
+}
+/*-------------------------Grid Main and Aside -----------------------------------------*/
