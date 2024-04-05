@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-family-web: "Times New Roman";
+  --font-family-links: "nyt-franklin, helvetica, arial, sans-serif";
+  --btn-background-color: #567b95;
+  --btn-font-color: #ffffff;
+}
+
+body {
+  font-family: var(--font-family);
+  margin: 13px 350px 0px 340px;
+}
+.search-bar-header {
+  justify-content: space-between;
+}
+.search-logo {
+  width: 34px;
+  height: 33px;
+  padding: 8px 9px 9px;
+  border: none;
+  background-color: transparent;
+  /* margin-left: 340px; */
+}
+
+ul {
+  text-align: center;
+  /* display: inline-block; */
+  display: inline-block;
+  font-family: var(--font-family-links);
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.48px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  /* li.a:not(:visited) { */
+  text-decoration: none;
+  height: 23px;
+  /* justify-content: space-between; */
+}
+
+/* .U.S. {
+  width: 36px;
+}
+.INTERNATIONAL {
+  width: 93px;
+}
+.CANADA {
+  width: 55px;
+}
+.ESPAÑOL {
+  width: 60px;
+}
+.中文 {
+  width: 37px;
+} */
+
+.two-buttons-header {
+  font-family: var(--font-family-links);
+  font-size: 11px;
+  background-color: var(--btn-background-color);
+  color: var(--btn-font-color);
+  padding: 8px 12px;
+  margin: 0px 7px 0px 0px;
+  width: 187.75px;
+  height: 29px;
+  justify-content: space-between;
+}
+.subscribe-btn {
+  width: 188px;
+  height: 29px;
+}
+
+.login-btn {
+  width: 64.41px;
+  height: 29px;
+  /* margin-right: 348px; */
+}

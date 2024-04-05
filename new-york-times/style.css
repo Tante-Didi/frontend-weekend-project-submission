@@ -6,19 +6,158 @@
 :root {
   --font-family-web: "Times New Roman";
   --font-family-links: "nyt-franklin, helvetica, arial, sans-serif";
+  --btn-background-color: #567b95;
+  --btn-font-color: #ffffff;
 }
 
 body {
-  font-family: var(--font-family);
+  font-family: "Times New Roman";
+  margin: 13px 350px 0px 340px;
+}
+.fater-container{
+  border-top:rgb(214, 213, 213) solid 1px;
+  border-bottom:rgb(214, 213, 213) solid 1px;
+
+}
+.search-bar-header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  gap: 20rem;
 }
 .search-logo {
   width: 34px;
   height: 33px;
-  padding: 8px 9px 9px;
+  padding: 8px 0px 8px 9px;
   border: none;
   background-color: transparent;
+  /* margin-left: 340px; */
+}
+
+.try{
+  padding: 0;
+  margin: 0;
 }
 
 ul {
-  font-family: var(--font-family-links);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 0 1%;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.48px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  height: 23px;
+  gap: 0px 2rem;
+  border: solid green 2px;
 }
+
+.U.S. {
+  width: 36px;
+  margin-left: 443px;
+}
+.INTERNATIONAL {
+  width: 93px;
+}
+.CANADA {
+  width: 55px;
+}
+.ESPAÑOL {
+  width: 60px;
+}
+.中文 {
+  width: 37px;
+  display: flex;
+}
+
+.two-buttons-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 14px;
+  font-size: 11px;
+
+  color: var(--btn-font-color);
+  padding: 8px 12px;
+  margin: 0px 7px 0px 0px;
+
+  height: 29px;
+  gap: 0px 2rem;
+}
+
+.subscribe-btn {
+  display: flex;
+  background-color: var(--btn-background-color);
+  align-items: center;
+  justify-content: center;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  width: 188px;
+  height: 29px;
+  border-radius: 2.5px;
+  transition:var(--btn-background-color) 0.8s ease-in-out 2s ;
+}
+.subscribe-btn:hover{
+  background-color: #135b8f;
+}
+
+
+.login-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--btn-background-color);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  width: 64.41px;
+  height: 29px;
+  border-radius: 2.5px;
+  transition:var(--btn-background-color) 0.8s ease-in-out 2s ;
+}
+.login-btn:hover {background-color: #135b8f;
+}
+
+
+
+
+
+
+/*-----------------------center nav bar--------------*/
+
+.container-center-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+  gap: 20rem;
+}
+
+.left-two-rows {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+.NYTimes-title {
+  width: 430px;
+  height: 59px;
+}
+.right{
+  display: flex;
+  gap:10px;
+  font-size: 12px;
+}
+.date-left .Todays-paper-left {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 12px;
+  color: #121212;
+  flex-direction: none;
+}
+/*-----------------------
