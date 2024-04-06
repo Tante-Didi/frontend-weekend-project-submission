@@ -42,6 +42,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   margin: auto;
+
   padding: 0 1%;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 10px;
@@ -336,9 +337,10 @@ aside {
 }
 /*-----third middle right------------*/
 .main-pic-one {
-  width: 460px;
+  width: 485px;
   height: 400px;
   margin-left: 20px;
+  margin-top: 20px;
 }
 /*-------------------------*/
 .four-bottom-left {
@@ -488,8 +490,9 @@ aside {
   padding-top: 0px;
 }
 .video-main {
-  width: 480px;
+  width: 485px;
   height: 408px;
+  margin-left: 20px;
 }
 /*--------------------------------------main-three--------------------------------------*/
 .main-three {
@@ -595,8 +598,9 @@ aside {
   border-bottom: rgb(214, 213, 213) solid 1px;
 }
 .img-main-three {
-  width: 460px;
+  width: 485px;
   height: 400px;
+  margin-left: 20px;
 }
 /*-------------main-four-----------------*/
 .main-four {
@@ -643,8 +647,9 @@ aside {
   border-bottom: rgb(214, 213, 213) solid 1px;
 }
 .img-main-four {
-  width: 450px;
-  height: 380px;
+  width: 485px;
+  height: 400px;
+  margin-left: 20px;
 }
 /*----------------Aside-first---------------------*/
 .aside-one {
@@ -691,7 +696,7 @@ aside {
 .aside-two {
 }
 
-.Opinion {
+.Opinion-one {
   font-size: 16px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   color: #121212;
@@ -731,4 +736,30 @@ aside {
 .last-flex {
   display: flex;
   flex-direction: row;
+}
+
+.all-in-one-last {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 11px;
+  color: #727272;
+  margin: 0px 0px 4px;
+  font-weight: 600;
+}
+.all-in-two-last {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 15px;
+  color: #121212;
+  font-weight: 550;
+}
+.all-in-three-last {
+  font-size: 10px;
+  color: #727272;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  border-bottom: rgb(214, 213, 213) solid 1px;
+}
+.the-end {
+  padding-right: 10px;
+}
+.second-profile-pic {
+  margin-left: 10px;
 }
