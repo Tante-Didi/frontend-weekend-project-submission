@@ -652,20 +652,38 @@ aside {
   width: 336px;
   height: 225px;
   margin-top: 20px;
+  margin-right: 20px;
 }
-.p-main-three{
-  fon
+.title-p-main-aside-one {
+  font-weight: 800;
+  font-size: 18px;
 }
+.p-main-aside-bottom {
+  font-size: 13.5px;
+  font-weight: 800;
+}
+.p-main-aside-bottom-second {
+  font-size: 13.5px;
+  font-weight: 800;
+  justify-content: right;
+}
+
 .two-images-Aside-one {
   display: flex;
 }
 .img-aside-first {
   width: 144px;
   height: 96px;
+  margin-top: 15px;
 }
 .img-aside-second {
   width: 144px;
   height: 96px;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+.left-bottom-Aside-two-from-two-images {
+  margin-left: 25px;
 }
 
 /*------------------Aside-second------------------------------*/
