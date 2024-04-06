@@ -191,3 +191,84 @@ div.BREAKING-div {
   font-style: none;
 }
 /*-------------------------Grid Main and Aside -----------------------------------------*/
+.main-container {
+  display: flex;
+  border: #d0021b 1px solid;
+  max-width: 1200px;
+  height: 2057px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  height: 1791px;
+}
+.main-one .main-two .main-three .main-four {
+  border: orange 5px solid;
+  width: 830px;
+}
+.main-one {
+  border: orange 5px solid;
+  width: 830px;
+  height: 501px;
+}
+.main-two {
+  border: orange 5px solid;
+  width: 830px;
+  height: 436px;
+}
+.main-three {
+  border: orange 5px solid;
+  width: 830px;
+  height: 442px;
+}
+.main-four {
+  border: orange 5px solid;
+  width: 830px;
+  height: 412px;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  height: 2057px;
+}
+.aside-one {
+  border: greenyellow 1px solid;
+  width: 337x;
+  height: 715px;
+}
+.aside-two {
+  border: gray 1px solid;
+  width: 337x;
+  height: 1200px;
+}
+
+.col1 {
+  width: 817px;
+  height: 1791px;
+  gap: right 33px;
+  border: #121212 solid 1px;
+}
+.col2 {
+  width: 337px;
+  height: 1200px;
+  margin-left: 33px;
+}
+.grid-container {
+  display: grid;
+  grid-template-rows: auto auto auto; /* 3 rows */
+  grid-template-columns: 1fr 1fr 1fr; /* Three columns, adjust as needed */
+  gap: 10px; /* Gap between grid items */
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Three columns in each row */
+  gap: 10px; /* Gap between columns */
+}
+
+.col {
+  /* Style each column as needed */
+  border: 1px solid #ccc;
+  padding: 10px;
+}
