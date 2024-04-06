@@ -64,8 +64,9 @@ ul {
 .CANADA {
   width: 55px;
 }
-.ESPAÑOL {
+.Español {
   width: 60px;
+  text-transform: uppercase;
 }
 .中文 {
   width: 37px;
@@ -190,7 +191,7 @@ div.BREAKING-div {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-style: none;
 }
-/*-------------------------Grid Main and Aside -----------------------------------------*/
+/*---------------- Main and Aside using flex-----------------------------------------*/
 .main-container {
   display: flex;
   border: #d0021b 1px solid;
@@ -242,7 +243,7 @@ aside {
   width: 337x;
   height: 1200px;
 }
-
+/*-------------using grid-----------------------------------------------------------*/
 .col1 {
   width: 817px;
   height: 1791px;
@@ -271,4 +272,57 @@ aside {
   /* Style each column as needed */
   border: 1px solid #ccc;
   padding: 10px;
+}
+/*----------------------------------------------------------------------*/
+.one-upper-left-father {
+  border: solid 1px #d0021b;
+  width: 325px;
+  height: 170px;
+}
+.title-p-main {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 18px;
+  line-height: 1.15em;
+  color: #121212;
+  font-weight: 700;
+  margin-inline-end: 0px;
+  margin-block-end: 1em;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+.content-p-main {
+  color: #5a5a5a;
+  font-family: nyt-imperial;
+  font-size: 16px;
+  -webkit-letter-spacing: 0.1px;
+  -moz-letter-spacing: 0.1px;
+  -ms-letter-spacing: 0.1px;
+  letter-spacing: 0.1px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  margin-top: 0.5rem;
+}
+.small-p-main {
+  font-size: 11px;
+  color: #727272;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+/*------------------------------------------------------------------------------*/
+.second-upper-left {
+  border: solid 1px #d0021b;
+  width: 325px;
+  height: 237.97px;
+}
+.Analysis {
+  margin: 1px 0px 0px 0px;
+  text-transform: uppercase;
+  size: 12px;
+  color: #121212;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
