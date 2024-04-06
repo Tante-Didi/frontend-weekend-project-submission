@@ -194,7 +194,7 @@ div.BREAKING-div {
 /*---------------- Main and Aside using flex-----------------------------------------*/
 .main-container {
   display: flex;
-  border: #d0021b 1px solid;
+  /* border: #d0021b 1px solid; */
   max-width: 1200px;
   height: 2057px;
 }
@@ -204,26 +204,26 @@ main {
   height: 1791px;
 }
 .main-one .main-two .main-three .main-four {
-  border: orange 5px solid;
+  /* border: orange 5px solid; */
   width: 835px;
 }
 .main-one {
-  border: orange 5px solid;
+  /* border: orange 5px solid; */
   width: 830px;
   height: 501px;
 }
 .main-two {
-  border: orange 5px solid;
+  /* border: orange 5px solid; */
   width: 830px;
   height: 436px;
 }
 .main-three {
-  border: orange 5px solid;
+  /* border: orange 5px solid; */
   width: 830px;
   height: 442px;
 }
 .main-four {
-  border: orange 5px solid;
+  /* border: orange 5px solid; */
   width: 830px;
   height: 412px;
 }
@@ -234,12 +234,13 @@ aside {
   height: 2057px;
 }
 .aside-one {
-  border: greenyellow 1px solid;
+  /* border: greenyellow 1px solid; */
   width: 337x;
-  height: 715px;
+  height: 590px;
 }
 .aside-two {
-  border: gray 1px solid;
+  /* border: gray 1px solid; */
+  border-top: gray 1px solid;
   width: 337x;
   height: 1200px;
 }
@@ -248,7 +249,7 @@ aside {
   width: 817px;
   height: 1791px;
   gap: right 33px;
-  border: #121212 solid 1px;
+  /* border: #121212 solid 1px; */
 }
 .col2 {
   width: 337px;
@@ -280,7 +281,7 @@ aside {
   border-bottom: rgb(214, 213, 213) solid 1px;
 }
 .one-upper-left-father {
-  border: solid 1px #d0021b;
+  /* border: solid 1px #d0021b; */
   width: 325px;
   height: 170px;
 }
@@ -322,7 +323,7 @@ aside {
 /*------------------------------------------------------------------------------*/
 .second-upper-left {
   display: grid;
-  border: solid 1px #d0021b;
+  /* border: solid 1px #d0021b; */
   width: 325px;
   height: 237.97px;
 }
@@ -341,7 +342,7 @@ aside {
 }
 /*-------------------------*/
 .four-bottom-left {
-  border: solid 1px #d0021b;
+  /* border: solid 1px #d0021b; */
   width: 445.98px;
   height: 85px;
 }
@@ -376,7 +377,7 @@ aside {
 
 /*---------------------*/
 .five-bottom-right {
-  border: solid 1px #d0021b;
+  /* border: solid 1px #d0021b; */
   width: 445.98px;
   height: 85px;
   padding: 20px;
@@ -399,7 +400,7 @@ aside {
   flex-direction: row;
 }
 .second-upper-left-father {
-  border: solid 1px #d0021b;
+  /* border: solid 1px #d0021b; */
   border-bottom: solid 1px solid #ccc;
   width: 325px;
   height: 165px;
@@ -449,7 +450,7 @@ aside {
   color: #121212;
   font-weight: 800;
   padding-top: 15px;
-  border: solid 1px #d0021b;
+  /* border: solid 1px #d0021b; */
 }
 .left-bottom {
   width: 340px;
@@ -688,4 +689,46 @@ aside {
 
 /*------------------Aside-second------------------------------*/
 .aside-two {
+}
+
+.Opinion {
+  font-size: 16px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  color: #121212;
+}
+.profile-pic-one {
+  display: flex;
+}
+.img-aside-two-first-first {
+  width: 322px;
+  height: 215px;
+}
+
+.img-aside-two-second-second {
+  width: 145.31px;
+  height: 145.31px;
+}
+
+.all-in-one {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 11px;
+  color: #727272;
+  margin: 0px 0px 4px;
+  font-weight: 600;
+}
+.all-in-two {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 15px;
+  color: #121212;
+  font-weight: 550;
+}
+.all-in-three {
+  font-size: 11px;
+  color: #727272;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  border-bottom: rgb(214, 213, 213) solid 1px;
+}
+.last-flex {
+  display: flex;
+  flex-direction: row;
 }
