@@ -54,7 +54,7 @@ margin-block-end: 1em;
   width: 172px;
   height: 18px;
   font: 12px;
-  box: shadow 1px;
+  box-shadow:  1px;
   cursor: pointer;
   position: relative;
   text-align: initial;
@@ -88,7 +88,7 @@ div.logo{
   justify-content:start;
 }
 
-section.5links-middle-section{
+.five-links-middle-section{
   
   flex-grow: 100;
   text-align: right; /* Aligns the list items to the right */
@@ -118,8 +118,8 @@ ul li a {
 }
 
 
-}
-div.3-icons-right {
+
+.three-icons-right {
   align-self:flex-end;
   size: 24px 24px ;
 }
@@ -153,7 +153,7 @@ p {
 
 } */
 /*-----------------------------------------------------------------*/
-div.2-buttons{
+.second-buttons{
   
   
 }
@@ -208,3 +208,9 @@ button.btnr3:hover{
     cursor: pointer;
   }
   
+div.three-cards {
+  position: absolute;
+  right:50px;
+  top:50px;
+
+}
